@@ -183,6 +183,8 @@ https://www.linkedin.com/pulse/solution-javanetsocketexception-too-many-open-fil
 
 The user limit on the total number of inotify watches
 ===================================
+sysctl fs.inotify
+
 echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches && echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_queued_events && echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_instances && sudo sysctl -p
 
 link :: https://github.com/facebook/watchman/issues/163
