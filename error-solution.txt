@@ -1,12 +1,25 @@
 image compression
 ===================================
-
 http://jpeg-optimizer.com/
 
 
 speed test ::
 ===================================
 curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+http://www.speedtest.net
+
+
+Finding Public ip addresses from terminal
+===================================
+dig +short myip.opendns.com @resolver1.opendns.com
+
+curl ifconfig.me
+curl icanhazip.com
+curl ipecho.net/plain
+curl ifconfig.co
+
+link :: https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/
+
 
 
 Private IP Addresses
@@ -50,6 +63,9 @@ give privileges for docker container
 
 java installation (java 1.8)
 ===================================
+
+oracle-java8
+=============
 apt-get update \
 && echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections \
 && apt-get install -y python-software-properties software-properties-common \
@@ -59,6 +75,11 @@ apt-get update \
 && update-java-alternatives --set java-8-oracle \
 && apt-get install oracle-java8-set-default && java -version
 
+OpenJDK
+=============
+apt-get install openjdk-8-jdk -y
+
+
 
 
 for go to a particular line in nano edit
@@ -67,16 +88,6 @@ nano +107 filename
 inside >> 
 (ctrl) + (shift) + (-)
 
-
-mail account for testing
-===================================
-mail : bizruntimetest@gmail.com
-pass : bizruntime@default
-
-
-to check internet connection speed 
-===================================
-http://www.speedtest.net
 
 
 
