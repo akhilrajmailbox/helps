@@ -85,6 +85,7 @@ Amazon Corretto 8
 apt-get update
 apt-get install java-common
 dpkg --install java-1.8.0-amazon-corretto-jdk_8.212.04-2_amd64.deb
+link :: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html
 
 
 for go to a particular line in nano edit
