@@ -170,9 +170,9 @@ User ubuntu
 IdentityFile /home/ubuntu/Desktop/digital
 ```
 
-
-**ssh digital           # in here, login as ubuntu and private key taken from IdentityFile path.**
-
+``
+ssh digital           # in here, login as ubuntu and private key taken from IdentityFile path
+``
 
 *Example 2 >>*
 ```
@@ -182,7 +182,9 @@ User root
 IdentityFile /home/ubuntu/Desktop/digital
 ```
 
-**ssh akhil             # in here, login as root and private key taken from IdentityFile path.**
+``
+ssh akhil             # in here, login as root and private key taken from IdentityFile path
+``
 
 [http://www.beginninglinux.com/home/server-administration/openssh-keys-certificates-authentication-pem-pub-crt]( http://www.beginninglinux.com/home/server-administration/openssh-keys-certificates-authentication-pem-pub-crt)
 
