@@ -57,7 +57,7 @@ export TERM=xterm
 
 ## run service in containers at booting
 
-*add the startup command for services
+*add the startup command for services*
 ```
 eg :: 
 echo “/etc/init.d/mysql start”
@@ -66,7 +66,7 @@ echo “/etc/init.d/mysql start”
 ## nfs-mounting inside a container
 
 *give privileges for docker container
-"--privileged" while running the containier
+"--privileged" while running the containier*
 
 
 
@@ -105,7 +105,7 @@ dpkg --install java-1.8.0-amazon-corretto-jdk_8.212.04-2_amd64.deb
 ```
 nano +107 filename
 ```
-*inside >> 
+*inside >>*
 ```
 (ctrl) + (shift) + (-)
 ```
@@ -123,14 +123,14 @@ username ALL=(ALL) NOPASSWD: ALL
 ## Setup SSH for Auto Login without a Password
 
 
-*On server
+*On server*
 ```
 ssh-keygen                # this command will create a .ssh directory under home if it doent exist
 ssh-copy-id  servername   # this will copy the public key to server with name of authorized_keys
 chmod 600 authorized_keys
 ```
 
-or
+*or*
 
 ```
 ssh-keygen -t rsa  # (hit return through prompts)
@@ -162,27 +162,27 @@ nano .ssh/config
 the public key must be provided in that user's .ssh/authorized_keys
 ```
 
-*Example 1 >>
-
-**Host  digital 
+*Example 1 >>*
+```
+Host  digital 
 Hostname  192.168.1.234
 User ubuntu 
-IdentityFile /home/ubuntu/Desktop/digital**
-
-```
-ssh digital           # in here, login as ubuntu and private key taken from IdentityFile path.
+IdentityFile /home/ubuntu/Desktop/digital
 ```
 
-*Example 2 >>
 
-**Host  akhil
+**ssh digital           # in here, login as ubuntu and private key taken from IdentityFile path.**
+
+
+*Example 2 >>*
+```
+Host  akhil
 Hostname  192.168.1.235
 User root
-IdentityFile /home/ubuntu/Desktop/digital**
+IdentityFile /home/ubuntu/Desktop/digital
+```
 
-```
-ssh akhil             # in here, login as root and private key taken from IdentityFile path.
-```
+**ssh akhil             # in here, login as root and private key taken from IdentityFile path.**
 
 [http://www.beginninglinux.com/home/server-administration/openssh-keys-certificates-authentication-pem-pub-crt]( http://www.beginninglinux.com/home/server-administration/openssh-keys-certificates-authentication-pem-pub-crt)
 
