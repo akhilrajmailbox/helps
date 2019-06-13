@@ -1,5 +1,6 @@
 # helps
 
+```
 [image compression](#image-compression)
 [Internet speed test](#speed-test)
 [Finding Public IP Addresses (GW) from terminal](#Public-IP-Addresses)
@@ -19,7 +20,7 @@
 [ulimit](#ulimit)
 [inotify watches](#inotify-watches)
 [delete git repository tags](#delete-repo-tags)
-
+```
 
 
 ## image-compression
