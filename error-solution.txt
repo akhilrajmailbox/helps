@@ -80,6 +80,11 @@ OpenJDK
 apt-get install openjdk-8-jdk -y
 
 
+Amazon Corretto 8
+=================
+apt-get update
+apt-get install java-common
+dpkg --install java-1.8.0-amazon-corretto-jdk_8.212.04-2_amd64.deb
 
 
 for go to a particular line in nano edit
