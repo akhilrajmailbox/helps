@@ -1,6 +1,6 @@
 # helps
 
-
+[image compression](#image compression)
 
 
 ## image compression
