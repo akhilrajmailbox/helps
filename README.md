@@ -2,9 +2,7 @@
 
 
 [image compression](#image-compression)
-
 [Internet speed test](#speed-test)
-
 [Finding Public IP Addresses (GW) from terminal](#Public-IP-Addresses)
 
 [Private IP range](#Private-IP-range)
