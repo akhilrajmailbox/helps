@@ -2,24 +2,41 @@
 
 
 [image compression](#image-compression)
+
 [Internet speed test](#speed-test)
+
 [Finding Public IP Addresses (GW) from terminal](#Public-IP-Addresses)
 
 [Private IP range](#Private-IP-range)
+
 [SSH authetication in dockerfile automatic](#Disable-hostcheck)
+
 [Get container id within that container](#Container-ID)
+
 [unknown terminal in dockerfile solution](#UnKnown-terminal-error)
+
 [nfs-mounting inside a container](#nfs-mounting-container)
+
 [java installation](#java-installation)
+
 [nano editor keys](#nano-editor)
+
 [sudo permission unauthenticated](#sudo-permission-unauthenticated)
+
 [ssh passwordless authetication](#ssh-passwordless-authetication)
+
 [ssh passwordless and userless authetication](#ssh-passwordless-userless-authetication)
+
 [scp custom](#scp-custom)
+
 [Tomcat Donwload](#Tomcat-donwload)
+
 [docker env rule](#docker-env)
+
 [ulimit](#ulimit)
+
 [inotify watches](#inotify-watches)
+
 [delete git repository tags](#delete-repo-tags)
 
 
