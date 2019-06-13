@@ -1,6 +1,25 @@
 # helps
 
 [image compression](#image-compression)
+[Internet speed test](#speed-test)
+[Finding Public IP Addresses (GW) from terminal](#Public-IP-Addresses)
+[Private IP range](#Private-IP-range)
+[SSH authetication in dockerfile automatic](#Disable-hostcheck)
+[Get container id within that container](#Container-ID)
+[unknown terminal in dockerfile solution](#UnKnown-terminal-error)
+[nfs-mounting inside a container](#nfs-mounting-container)
+[java installation](#java-installation)
+[nano editor keys](#nano-editor)
+[sudo permission unauthenticated](#sudo-permission-unauthenticated)
+[ssh passwordless authetication](#ssh-passwordless-authetication)
+[ssh passwordless and userless authetication](#ssh-passwordless-userless-authetication)
+[scp custom](#scp-custom)
+[Tomcat Donwload](#Tomcat-donwload)
+[docker env rule](#docker-env)
+[ulimit](#ulimit)
+[inotify watches](#inotify-watches)
+[delete git repository tags](#delete-repo-tags)
+
 
 
 ## image-compression
@@ -8,14 +27,15 @@
 [http://jpeg-optimizer.com/](http://jpeg-optimizer.com/)
 
 
-## speed test
+## speed-test
 
 ```
 curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
 ```
 [http://www.speedtest.net](http://www.speedtest.net)
 
-## Finding Public IP Addresses (GW) from terminal
+## Public-IP-Addresses
+Finding Public IP Addresses (GW) from terminal
 
 ```
 dig +short myip.opendns.com @resolver1.opendns.com
@@ -28,7 +48,7 @@ curl ifconfig.co
 
 [https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/](https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/)
 
-## Private IP Addresses
+## Private-IP-range
 
 ```
 Class   Private Networks            Subnet Mask     Address Range
@@ -37,40 +57,37 @@ B       172.16.0.0 - 172.31.0.0     255.240.0.0     172.16.0.0 - 172.31.255.255
 C       192.168.0.0                 255.255.0.0     192.168.0.0 - 192.168.255.255
 ```
 
-## Shh authetication in dockerfile automatic
+## Disable-hostcheck
+SSH authetication in dockerfile automatic
 
 ```
 echo "Host github.com\n\tStrictHostKeyChecking no\n" > /root/.ssh/config
 ```
 
-## Get container id within that container
+## Container-ID
+Get container id within that container
 
 ```
 cat /proc/self/cgroup | grep "cpu:/" | sed 's/\([0-9]\):cpu:\/docker\///g'
 ```
 
-## error : unknown terminal in dockerfile solution
+## UnKnown-terminal-error
+error : unknown terminal in dockerfile solution
 
 ```
 export TERM=xterm
 ```
 
-## run service in containers at booting
-
-*add the startup command for services*
-```
-eg :: 
-echo “/etc/init.d/mysql start”
-```
-
-## nfs-mounting inside a container
+## nfs-mounting-container
+nfs-mounting inside a container
 
 *give privileges for docker container
 "--privileged" while running the containier*
 
 
 
-## java installation (java 1.8)
+## java-installation
+(java 1.8)
 
 ### oracle-java8
 ```
@@ -100,7 +117,8 @@ dpkg --install java-1.8.0-amazon-corretto-jdk_8.212.04-2_amd64.deb
 ](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html
 )
 
-## for go to a particular line in nano edit
+## nano-editor
+for go to a particular line in nano edit
 
 ```
 nano +107 filename
@@ -110,7 +128,8 @@ nano +107 filename
 (ctrl) + (shift) + (-)
 ```
 
-## giving user to run sudo without password
+## sudo-permission-unauthenticated
+giving user to run sudo without password
 
 ```
 1) add a user
@@ -120,7 +139,8 @@ nano +107 filename
 username ALL=(ALL) NOPASSWD: ALL
 ```
 
-## Setup SSH for Auto Login without a Password
+## ssh-passwordless-authetication
+Setup SSH for Auto Login without a Password
 
 
 *On server*
@@ -142,14 +162,8 @@ check on client side and try to login from server
 [http://www.rebol.com/docs/ssh-auto-login.html](http://www.rebol.com/docs/ssh-auto-login.html)
 
 
-
-## SSH authetication in dockerfile automatic
-
-```
-echo "Host github.com\n\tStrictHostKeyChecking no\n" > /root/.ssh/config
-```
-
-## Setup SSH for Auto Login without a Password and without user
+## ssh-passwordless-userless-authetication
+Setup SSH for Auto Login without a Password and without user
 
 ```
 cd .ssh
@@ -189,18 +203,20 @@ ssh akhil             # in here, login as root and private key taken from Identi
 [http://www.beginninglinux.com/home/server-administration/openssh-keys-certificates-authentication-pem-pub-crt]( http://www.beginninglinux.com/home/server-administration/openssh-keys-certificates-authentication-pem-pub-crt)
 
 
-## scp with particular port
+## scp-custom
+scp with particular port
 ```
 scp -r -P 2233 -i /path/to/name.pem user@ip-address:/path/to/src  /path/to/dest
 ```
 
-## tomcat download site
-[http://www-us.apache.org/dist/tomcat/](
-http://www-us.apache.org/dist/tomcat/)
+## Tomcat-donwload
+tomcat download site
+
+[http://www-us.apache.org/dist/tomcat/](http://www-us.apache.org/dist/tomcat/)
 
 
 
-## docker env
+## docker-env
 
 ```
 env MYSQL_ROOT ubuntu	>> will work 		“_”
@@ -212,7 +228,8 @@ env MYSQL-ROOT ubuntu	>> will not work 	“-”
 [https://www.linkedin.com/pulse/solution-javanetsocketexception-too-many-open-files-divyang-shah](https://www.linkedin.com/pulse/solution-javanetsocketexception-too-many-open-files-divyang-shah)
 
 
-## The user limit on the total number of inotify watches
+## inotify-watches
+The user limit on the total number of inotify watches
 
 ```
 sysctl fs.inotify
@@ -224,7 +241,8 @@ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches && echo 999999 |
 
 
 
-## deleting tages form repos
+## delete-repo-tags
+deleting tags form repos in a sec
 
 ```
 git tag -l
