@@ -267,7 +267,7 @@ deleting tags form repos in a sec
 git tag -l
 git tag -d $(git tag -l)
 git fetch
-git push origin --delete $(git tag -l)                # Pushing once should be faster than multiple times
+git push origin --delete $(git tag -l)                # Pushing once should be faster than multiple times.
 git tag -d $(git tag -l)
 git tag -l
 ```
