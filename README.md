@@ -39,7 +39,17 @@
 
 [delete git repository tags](#delete-repo-tags)
 
+[Locale configuration](#Locale-configuration)
 
+
+## Locale-configuration
+
+```
+export LANGUAGE="en_US.UTF-8"
+echo 'LANGUAGE="en_US.UTF-8"' >> /etc/default/locale
+echo 'LC_ALL="en_US.UTF-8"' >> /etc/default/locale      # exit and login again
+dpkg-reconfigure locales
+```
 
 ## image-compression
 
