@@ -41,6 +41,14 @@
 
 [Locale configuration](#Locale-configuration)
 
+[onlline pdf editor](#pdf-editor)
+
+
+## pdf-editor
+```
+[https://www.sejda.com/pdf-editor](https://www.sejda.com/pdf-editor)
+```
+
 
 ## Locale-configuration
 
