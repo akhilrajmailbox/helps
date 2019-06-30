@@ -263,6 +263,7 @@ env MYSQL-ROOT ubuntu	>> will not work 	“-”
 ## ulimit
 
 [https://www.linkedin.com/pulse/solution-javanetsocketexception-too-many-open-files-divyang-shah](https://www.linkedin.com/pulse/solution-javanetsocketexception-too-many-open-files-divyang-shah)
+[https://www.cyberciti.biz/faq/linux-increase-the-maximum-number-of-open-files/](https://www.cyberciti.biz/faq/linux-increase-the-maximum-number-of-open-files/)
 
 
 ## inotify-watches
