@@ -110,6 +110,7 @@ curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.p
 ## Public-IP-Addresses
 
 [:point_up_2:](#helps)
+
 Finding Public IP Addresses (GW) from terminal
 
 ```
@@ -137,6 +138,7 @@ C       192.168.0.0                 255.255.0.0     192.168.0.0 - 192.168.255.25
 ## Disable-hostcheck
 
 [:point_up_2:](#helps)
+
 SSH authetication in dockerfile automatic
 
 ```
@@ -146,6 +148,7 @@ echo "Host github.com\n\tStrictHostKeyChecking no\n" > /root/.ssh/config
 ## Container-ID
 
 [:point_up_2:](#helps)
+
 Get container id within that container
 
 ```
@@ -155,6 +158,7 @@ cat /proc/self/cgroup | grep "cpu:/" | sed 's/\([0-9]\):cpu:\/docker\///g'
 ## UnKnown-terminal-error
 
 [:point_up_2:](#helps)
+
 error : unknown terminal in dockerfile solution
 
 ```
@@ -164,6 +168,7 @@ export TERM=xterm
 ## nfs-mounting-container
 
 [:point_up_2:](#helps)
+
 nfs-mounting inside a container
 
 *give privileges for docker container
@@ -174,6 +179,7 @@ nfs-mounting inside a container
 ## java-installation
 
 [:point_up_2:](#helps)
+
 (java 1.8)
 
 ### oracle-java8
@@ -207,6 +213,7 @@ dpkg --install java-1.8.0-amazon-corretto-jdk_8.212.04-2_amd64.deb
 ## nano-editor
 
 [:point_up_2:](#helps)
+
 for go to a particular line in nano edit
 
 ```
@@ -220,6 +227,7 @@ nano +107 filename
 ## sudo-permission-unauthenticated
 
 [:point_up_2:](#helps)
+
 giving user to run sudo without password
 
 ```
@@ -233,6 +241,7 @@ username ALL=(ALL) NOPASSWD: ALL
 ## ssh-passwordless-authetication
 
 [:point_up_2:](#helps)
+
 Setup SSH for Auto Login without a Password
 
 
@@ -258,6 +267,7 @@ check on client side and try to login from server
 ## ssh-passwordless-userless-authetication
 
 [:point_up_2:](#helps)
+
 Setup SSH for Auto Login without a Password and without user
 
 ```
@@ -301,6 +311,7 @@ ssh akhil             # in here, login as root and private key taken from Identi
 ## scp-custom
 
 [:point_up_2:](#helps)
+
 scp with particular port
 ```
 scp -r -P 2233 -i /path/to/name.pem user@ip-address:/path/to/src  /path/to/dest
@@ -309,6 +320,7 @@ scp -r -P 2233 -i /path/to/name.pem user@ip-address:/path/to/src  /path/to/dest
 ## Tomcat-donwload
 
 [:point_up_2:](#helps)
+
 tomcat download site
 
 [http://www-us.apache.org/dist/tomcat/](http://www-us.apache.org/dist/tomcat/)
@@ -335,6 +347,7 @@ env MYSQL-ROOT ubuntu	>> will not work 	“-”
 ## inotify-watches
 
 [:point_up_2:](#helps)
+
 The user limit on the total number of inotify watches
 
 ```
@@ -350,6 +363,7 @@ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches && echo 999999 |
 ## delete-repo-tags
 
 [:point_up_2:](#helps)
+
 deleting tags form repos in a sec
 
 ```
