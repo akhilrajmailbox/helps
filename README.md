@@ -51,7 +51,7 @@
 
 
 ## windows-server-free-product-key
-Go Up [:point_up_2:](#helps)
+[Go Up :point_up_2:](#helps)
 
 Once you have installed the evaluation copy you may see that it is not activated and when you try and activate, it will ask for a product key.
 
