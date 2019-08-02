@@ -50,7 +50,8 @@
 [github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
 
 
-## windows-server-free-product-key              [:point_up_2:](#helps)
+## windows-server-free-product-key
+[:point_up_2:](#helps)
 
 Once you have installed the evaluation copy you may see that it is not activated and when you try and activate, it will ask for a product key.
 
