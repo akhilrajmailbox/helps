@@ -50,8 +50,7 @@
 [github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
 
 
-## windows-server-free-product-key
-[:point_up_2:](#helps)
+## windows-server-free-product-key [:point_up_2:](#helps)
 
 Once you have installed the evaluation copy you may see that it is not activated and when you try and activate, it will ask for a product key.
 
@@ -63,18 +62,18 @@ This should then automatically rearm your trial for 180 days. I have tested this
 [link](https://www.quora.com/Can-I-activate-Windows-Server-2012-R2-standard-without-the-product-key)
 
 
-## test-2-ASCII 
+## test-2-ASCII [:point_up_2:](#helps)
 [http://patorjk.com/software/taag](http://patorjk.com/software/taag)
 
 
 
-## pdf-editor
+## pdf-editor [:point_up_2:](#helps)
 
 [https://www.sejda.com/pdf-editor](https://www.sejda.com/pdf-editor)
 
 
 
-## Locale-configuration
+## Locale-configuration [:point_up_2:](#helps)
 
 ```
 export LANGUAGE="en_US.UTF-8"
@@ -83,19 +82,19 @@ echo 'LC_ALL="en_US.UTF-8"' >> /etc/default/locale      # exit and login again
 dpkg-reconfigure locales
 ```
 
-## image-compression
+## image-compression [:point_up_2:](#helps)
 
 [http://jpeg-optimizer.com/](http://jpeg-optimizer.com/)
 
 
-## speed-test
+## speed-test [:point_up_2:](#helps)
 
 ```
 curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
 ```
 [http://www.speedtest.net](http://www.speedtest.net)
 
-## Public-IP-Addresses
+## Public-IP-Addresses [:point_up_2:](#helps)
 Finding Public IP Addresses (GW) from terminal
 
 ```
@@ -109,7 +108,7 @@ curl ifconfig.co
 
 [https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/](https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/)
 
-## Private-IP-range
+## Private-IP-range [:point_up_2:](#helps)
 
 ```
 Class   Private Networks            Subnet Mask     Address Range
@@ -118,28 +117,28 @@ B       172.16.0.0 - 172.31.0.0     255.240.0.0     172.16.0.0 - 172.31.255.255
 C       192.168.0.0                 255.255.0.0     192.168.0.0 - 192.168.255.255
 ```
 
-## Disable-hostcheck
+## Disable-hostcheck [:point_up_2:](#helps)
 SSH authetication in dockerfile automatic
 
 ```
 echo "Host github.com\n\tStrictHostKeyChecking no\n" > /root/.ssh/config
 ```
 
-## Container-ID
+## Container-ID [:point_up_2:](#helps)
 Get container id within that container
 
 ```
 cat /proc/self/cgroup | grep "cpu:/" | sed 's/\([0-9]\):cpu:\/docker\///g'
 ```
 
-## UnKnown-terminal-error
+## UnKnown-terminal-error [:point_up_2:](#helps)
 error : unknown terminal in dockerfile solution
 
 ```
 export TERM=xterm
 ```
 
-## nfs-mounting-container
+## nfs-mounting-container [:point_up_2:](#helps)
 nfs-mounting inside a container
 
 *give privileges for docker container
@@ -147,7 +146,7 @@ nfs-mounting inside a container
 
 
 
-## java-installation
+## java-installation [:point_up_2:](#helps)
 (java 1.8)
 
 ### oracle-java8
@@ -178,7 +177,7 @@ dpkg --install java-1.8.0-amazon-corretto-jdk_8.212.04-2_amd64.deb
 ](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html
 )
 
-## nano-editor
+## nano-editor [:point_up_2:](#helps)
 for go to a particular line in nano edit
 
 ```
@@ -189,7 +188,7 @@ nano +107 filename
 (ctrl) + (shift) + (-)
 ```
 
-## sudo-permission-unauthenticated
+## sudo-permission-unauthenticated [:point_up_2:](#helps)
 giving user to run sudo without password
 
 ```
@@ -200,7 +199,7 @@ giving user to run sudo without password
 username ALL=(ALL) NOPASSWD: ALL
 ```
 
-## ssh-passwordless-authetication
+## ssh-passwordless-authetication [:point_up_2:](#helps)
 Setup SSH for Auto Login without a Password
 
 
@@ -223,7 +222,7 @@ check on client side and try to login from server
 [http://www.rebol.com/docs/ssh-auto-login.html](http://www.rebol.com/docs/ssh-auto-login.html)
 
 
-## ssh-passwordless-userless-authetication
+## ssh-passwordless-userless-authetication [:point_up_2:](#helps)
 Setup SSH for Auto Login without a Password and without user
 
 ```
@@ -264,33 +263,33 @@ ssh akhil             # in here, login as root and private key taken from Identi
 [http://www.beginninglinux.com/home/server-administration/openssh-keys-certificates-authentication-pem-pub-crt]( http://www.beginninglinux.com/home/server-administration/openssh-keys-certificates-authentication-pem-pub-crt)
 
 
-## scp-custom
+## scp-custom [:point_up_2:](#helps)
 scp with particular port
 ```
 scp -r -P 2233 -i /path/to/name.pem user@ip-address:/path/to/src  /path/to/dest
 ```
 
-## Tomcat-donwload
+## Tomcat-donwload [:point_up_2:](#helps)
 tomcat download site
 
 [http://www-us.apache.org/dist/tomcat/](http://www-us.apache.org/dist/tomcat/)
 
 
 
-## docker-env
+## docker-env [:point_up_2:](#helps)
 
 ```
 env MYSQL_ROOT ubuntu	>> will work 		“_”
 env MYSQL-ROOT ubuntu	>> will not work 	“-”
 ```
 
-## ulimit
+## ulimit [:point_up_2:](#helps)
 
 [https://www.linkedin.com/pulse/solution-javanetsocketexception-too-many-open-files-divyang-shah](https://www.linkedin.com/pulse/solution-javanetsocketexception-too-many-open-files-divyang-shah)
 [https://www.cyberciti.biz/faq/linux-increase-the-maximum-number-of-open-files/](https://www.cyberciti.biz/faq/linux-increase-the-maximum-number-of-open-files/)
 
 
-## inotify-watches
+## inotify-watches [:point_up_2:](#helps)
 The user limit on the total number of inotify watches
 
 ```
@@ -303,7 +302,7 @@ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches && echo 999999 |
 
 
 
-## delete-repo-tags
+## delete-repo-tags [:point_up_2:](#helps)
 deleting tags form repos in a sec
 
 ```
