@@ -50,7 +50,7 @@
 [github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
 
 
-## windows-server-free-product-key  [:point_up_2:](#helps)
+## windows-server-free-product-key              [:point_up_2:](#helps)
 
 Once you have installed the evaluation copy you may see that it is not activated and when you try and activate, it will ask for a product key.
 
@@ -62,7 +62,7 @@ This should then automatically rearm your trial for 180 days. I have tested this
 [link](https://www.quora.com/Can-I-activate-Windows-Server-2012-R2-standard-without-the-product-key)
 
 
-## test-2-ASCII
+## test-2-ASCII 
 [http://patorjk.com/software/taag](http://patorjk.com/software/taag)
 
 
