@@ -48,7 +48,7 @@
 [Windows Server 2012 R2 -- Free product key](#windows-server-free-product-key)
 
 
-## windows-server-free-product-key
+## windows-server-free-product-key  [Go-Top](#helps)
 
 Once you have installed the evaluation copy you may see that it is not activated and when you try and activate, it will ask for a product key.
 
