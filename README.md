@@ -45,6 +45,20 @@
 
 [ASCII Online Creation](#test-2-ASCII)
 
+[Windows Server 2012 R2 -- Free product key](#windows-server-free-product-key)
+
+
+## windows-server-free-product-key
+
+Once you have installed the evaluation copy you may see that it is not activated and when you try and activate, it will ask for a product key.
+
+If you get this instead of it automatically activating for you, then all you need to do is to run the following command from an elevated command prompt:
+
+    slmgr.vbs -rearm
+
+This should then automatically rearm your trial for 180 days. I have tested this several times, apparently you can rearm your trial version up to five times which will give you around 2 and a half years of Windows Server 2012 R2 .
+[link](https://www.quora.com/Can-I-activate-Windows-Server-2012-R2-standard-without-the-product-key)
+
 
 ## test-2-ASCII
 [http://patorjk.com/software/taag](http://patorjk.com/software/taag)
