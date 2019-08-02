@@ -47,6 +47,8 @@
 
 [Windows Server 2012 R2 -- Free product key](#windows-server-free-product-key)
 
+[github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
+
 
 ## windows-server-free-product-key  [Go-Top](#helps)
 
