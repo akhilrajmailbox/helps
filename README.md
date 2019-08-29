@@ -2,7 +2,7 @@
 
 [github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
 
-[github markdown cheatsheet](https://github.com/akhilrajmailbox/helps/blob/master/markdown-cheatsheet.md)
+[github markdown cheatsheet](https://github.com/akhilrajmailbox/helps/blob/master/Markdown-Cheatsheet.md)
 
 [image compression](#image-compression)
 
