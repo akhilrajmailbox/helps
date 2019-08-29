@@ -1,6 +1,8 @@
 Markdown Cheatsheet
 ===================
 
+[Go Back](https://github.com/akhilrajmailbox/helps)
+
 - - - - 
 
 # Heading 1 #
@@ -196,3 +198,6 @@ Emoji:
 :exclamation: Use emoji icons to enhance text. :+1:  Look up emoji codes at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com/)
 
     Markup : Code appears between colons :EMOJICODE:
+    
+    
+[Go Back](https://github.com/akhilrajmailbox/helps)
