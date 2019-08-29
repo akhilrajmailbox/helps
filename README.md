@@ -1,5 +1,8 @@
 # helps
 
+[github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
+
+[github markdown cheatsheet](https://github.com/akhilrajmailbox/helps/blob/master/markdown-cheatsheet.md)
 
 [image compression](#image-compression)
 
@@ -46,8 +49,6 @@
 [ASCII Online Creation](#test-2-ASCII)
 
 [Windows Server 2012 R2 -- Free product key](#windows-server-free-product-key)
-
-[github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
 
 
 ## windows-server-free-product-key
