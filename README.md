@@ -4,6 +4,8 @@
 
 [github markdown cheatsheet](https://github.com/akhilrajmailbox/helps/blob/master/Markdown-Cheatsheet.md)
 
+[Helm and Tiller](#Helm-tiller-configuration)
+
 [image compression](#image-compression)
 
 [Internet speed test](#speed-test)
@@ -50,6 +52,18 @@
 
 [Windows Server 2012 R2 -- Free product key](#windows-server-free-product-key)
 
+
+
+## Helm-tiller-configuration
+
+[:point_up_2:](#helps)
+
+```
+kubectl create serviceaccount --namespace kube-system tiller
+kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+kubectl patch deploy --namespace kube-system tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}'      
+helm init --service-account tiller --upgrade
+```
 
 ## windows-server-free-product-key
 
