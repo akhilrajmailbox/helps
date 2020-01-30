@@ -52,7 +52,26 @@
 
 [Windows Server 2012 R2 -- Free product key](#windows-server-free-product-key)
 
+[sed command](#sed-command)
 
+
+## sed-command
+
+[:point_up_2:](#helps)
+
+example file content : input.txt
+```
+Some text
+Random
+[option]
+Some stuff
+```
+
+```
+sed  '/\[option\]/a Hello World' input.txt      # Append line after match
+sed  '/\[option\]/i Hello World' input.txt      # Insert line before match
+sed -n 1p input.txt                             # show 1st line
+```
 
 ## Helm-tiller-configuration
 
