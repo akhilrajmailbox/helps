@@ -54,6 +54,7 @@
 
 [sed command](#sed-command)
 
+[git multi-branch develop](#git-multi-branch-develop)
 
 
 ## git-multi-branch-develop
