@@ -62,17 +62,27 @@
 [:point_up_2:](#helps)
 
 ```
-git checkout yourbranch
-git rebase -i origin/master
+git checkout your-branch
+git rebase -i origin/main-branch
 
 # Edit command names accordingly
   pick   1fc6c95 My pull request
   squash 6b2481b Hack hack - will be discarded
   squash dd1475d Also discarded
 
-git push -f origin yourbranch
+git push -f origin your-branch
 ```
 [link](https://stackoverflow.com/questions/9790448/how-to-update-a-pull-request-from-forked-repo)
+
+on the same branch (squash)
+
+```
+git log
+git rebase -i HEAD~number
+<<commit messages>>
+git push -f
+```
+
 
 ## sed-command
 
