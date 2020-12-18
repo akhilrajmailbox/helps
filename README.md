@@ -62,15 +62,14 @@
 [:point_up_2:](#helps)
 
 ```
-git checkout your-branch
-git rebase -i origin/main-branch
-
-# Edit command names accordingly
-  pick   1fc6c95 My pull request
-  squash 6b2481b Hack hack - will be discarded
-  squash dd1475d Also discarded
-
-git push -f origin your-branch
+git remote add upstream repo-url
+git pull --rebase upstream branch
+git log
+git rebase -i HEAD~number
+git add
+git rebase --continue
+git log
+git push -f
 ```
 [link](https://stackoverflow.com/questions/9790448/how-to-update-a-pull-request-from-forked-repo)
 
